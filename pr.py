@@ -1,10 +1,6 @@
 import streamlit as st
 # Data handling dependencies
-import pandas as pd
-import numpy as np
-import base64
-from  PIL import Image
-from streamlit_option_menu import option_menu
+
 
 def main():
 # Page config
