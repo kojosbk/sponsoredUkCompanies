@@ -22,7 +22,7 @@ def main():
 
       with col2:  
           usdt_per_kes = st.number_input('USDT per 1 KES(Kenyan Sellers Rate)', min_value=0.0, value=140.99, key='usdt_kes')
-          gbp_per_usdt = st.number_input('GBP per 1 USDT(revolut/monzo/wise rate)', min_value=0.0, value=0.782, key='gbp_usdt')
+          gbp_per_usdt = st.number_input('GBP per 1 USDT(revolut/monzo/wise rate)', min_value=0.0, value=0.782, key='gbp_usdt', format='%.3f')
 
       submitted = st.form_submit_button('Submit')
 
