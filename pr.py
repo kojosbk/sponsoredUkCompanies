@@ -4,7 +4,7 @@ import streamlit as st
 
 def main():
 # Page config
-  st.set_page_config(page_title='Currency Arbitrage App', page_icon='📈') 
+  st.set_page_config(page_title='Currency Arbitrage App Built by silas powered by safo', page_icon='📈') 
 
   # Page title
   st.title('Currency Arbitrage App')
@@ -47,7 +47,7 @@ def main():
       with col2:
           if profit_loss > 0:
               st.metric('Profit/Loss', f'£{profit_loss:.2f}', delta_color='off')
-              st.success('You earned a profit!')
+              st.success('You earned a profit!🤑💰💵')
           elif profit_loss < 0:
               st.metric('Profit/Loss', f'-£{abs(profit_loss):.2f}', delta_color='off')
               st.error('You had a loss')
