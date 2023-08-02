@@ -18,10 +18,10 @@ def main():
 
       with col1:
           initial_gbp = st.number_input('Initial amount (GBP)', min_value=0.0, value=10.0, key='initial')
-          kes_per_gbp = st.number_input('KES per 1 GBP(Lemonade Rates)', min_value=0.0, value=185.0, key='kes_gbp')
+          kes_per_gbp = st.number_input('KES per 1 GBP(Lemonade Rates)', min_value=0.0, value=4750.00, key='kes_gbp', format='%.3f')
 
       with col2:  
-          usdt_per_kes = st.number_input('USDT per 1 KES(Kenyan Sellers Rate)', min_value=0.0, value=140.99, key='usdt_kes')
+          usdt_per_kes = st.number_input('USDT per 1 KES(Kenyan Sellers Rate)', min_value=0.0, value=3648.98, key='usdt_kes', format='%.3f')
           gbp_per_usdt = st.number_input('GBP per 1 USDT(revolut/monzo/wise rate)', min_value=0.0, value=0.782, key='gbp_usdt', format='%.3f')
 
       submitted = st.form_submit_button('Submit')
