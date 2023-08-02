@@ -4,10 +4,10 @@ import streamlit as st
 
 def main():
 # Page config
-  st.set_page_config(page_title='Currency Arbitrage App Built by silas powered by safo', page_icon='📈') 
+  st.set_page_config(page_title='Currency Arbitrage App ', page_icon='📈') 
 
   # Page title
-  st.title('Currency Arbitrage App')
+  st.title('Currency Arbitrage App Built by Silas powered by Safo')
 
     #Inputs section
   with st.form('inputs'):
