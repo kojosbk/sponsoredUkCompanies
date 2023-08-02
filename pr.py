@@ -17,7 +17,7 @@ def main():
       col1, col2 = st.columns(2)
 
       with col1:
-          initial_gbp = st.number_input('Initial amount (GBP)', min_value=0.0, value=10.0, key='initial')
+          initial_gbp = st.number_input('Initial amount (GBP)', min_value=0.0, value=1000.0, key='initial')
           kes_per_gbp = st.number_input('KES per 1 GBP(Lemonade Rates)', min_value=0.0, value=4750.00, key='kes_gbp', format='%.3f')
 
       with col2:  
