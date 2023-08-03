@@ -7,7 +7,7 @@ def main():
   st.set_page_config(page_title='Currency Arbitrage App ', page_icon='📈') 
 
   # Page title
-  st.title('Currency Arbitrage App Built by Silas powered by Safo')
+  st.title('Currency Arbitrage App Built by Silas powered by Sarfo')
 
     #Inputs section
   with st.form('inputs'):
